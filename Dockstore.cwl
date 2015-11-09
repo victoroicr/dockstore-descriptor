@@ -1,14 +1,14 @@
 #!/usr/bin/env cwl-runner
 
 class: CommandLineTool
-description: "Markdown description text here"
+#description: "Markdown description text here"
 id: "HelloWorld"
 label: "HelloWorld Tool"
 
-dct:creator:
-  "@id": "http://orcid.org/0000-0003-3566-7705"
-  foaf:name: Peter Amstutz
-  foaf:mbox: "mailto:peter.amstutz@curoverse.com"
+#dct:creator:
+  #"@id": "http://orcid.org/0000-0003-3566-7705"
+  #foaf:name: Peter Amstutz
+  #foaf:mbox: "mailto:peter.amstutz@curoverse.com"
 
 requirements:
   - class: DockerRequirement
