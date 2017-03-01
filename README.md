@@ -3,7 +3,7 @@
 
 # Dockstore Descriptor
 
-The purpose of this tool is to show how [CWL](http://ga4gh.org/#/cwf-team) can be used to describe and run a tool inside a Docker container.
+The purpose of this tool is to show how [CWL](http://www.commonwl.org) can be used to describe and run a tool inside a Docker container.
 
 This repo contains an example HelloWorld workflow that simply generates a "helloworld" text file and sticks it in an output location on the filesystem, an example Descriptor for how to run this Docker-ized HelloWorld workflow (in JSON and CWL), and a sample Java Launcher that interprets the Descriptor, provisions files, and launches the constructed command.  The goal of this repo is to provide a concrete example of this working so I can get feedback from the community on the goal of using CWL with Docker.  This prototype can also be adapted into [Consonance](https://github.com/Consonance/), our cloud orchestration framework, for real production use. Finally, it's useful for developers to use as a testing tool with their Dockers described using CWL. 
 
